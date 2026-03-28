@@ -1,0 +1,29 @@
+# Root-level .gitignore for CodeSync monorepo
+
+# Dependencies
+node_modules/
+
+# Environment files (NEVER commit these)
+.env
+.env.production
+.env.local
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Temp files from code execution engine
+/tmp/
